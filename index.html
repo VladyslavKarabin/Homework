@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini AutoRia</title>
+</head>
+<body>
+    <form action="https://fom.in.ua/echo" method="get">
+
+            <section>
+                <h2>Пошук-Фильтр</h2>
+                <label>Тип кузова</label>
+                <select name="Тип кузова" id="">
+                    <option>Седан</option>
+                    <option>Хетчбек</option>
+                    <option>Пікап</option>
+                    <option>Кроссовер</option>
+                </select> 
+            </section>
+            <section>
+                <label>Країна виробник</label>
+                <select name="Країна виробник" id="">
+                    <option>США</option>
+                    <option>Європа</option>
+                    <option>Інший світ</option>
+                </select>
+            </section>
+            <section>
+                <label>Тип палива</label>
+                <label> <input type="radio" name="status"> Бензин </label>
+                <label> <input type="radio" name="status"> Дизель </label>
+                <label> <input type="radio" name="status"> Електро </label>
+            </section>
+            <section>
+                <label for="tentacles">Рік випуску (1999-2023):</label>
+
+                <input type="number" id="tentacles" name="Рік випуску" min="1999" max="2023" />
+            </section>
+            <p>Коробка передач:</p>
+            <div>
+                <input type="range" id="volume" name="Ручна" min="0" max="1"/>
+                <label for="volume">Ручна</label>
+              </div>
+              <div>
+                <input type="range" id="cowbell" name="Автомат" min="0" max="1"/>
+                <label for="cowbell">Автомат</label>
+              </div>
+              <div>
+                <input type="range" id="cowbell" name="Тіптронік" min="0" max="1"/>
+                <label for="cowbell">Тіптронік</label>
+              </div>
+              <input type="checkbox">Вибір вірний
+
+
+
+
+
+            <button>прийняти</button>
+    </form>
+
+
+</body>
+</html>
